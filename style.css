@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #080F17;
+    color: #D6DDE6;
+}
+
+.main {
+    padding: 0 48px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 16px 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+
+}
+
+#portfolio {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#pagelink {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item {
+    font-size: 22px;
+    text-decoration: none;
+    color: #D6DDE6;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #FFFFFF;
+}
+
+
+.landingpage {
+    text-align: center;
+    padding: 96px 0;
+}
+
+#unrefined {
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+#fotu img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+
+.allfotu {
+    padding: 48px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.imgtext1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.imgtext2 {
+    font-size: 17px;
+    color: rgba(214, 221, 230, 0.8);
+}
+
+/* yha se naya cod */
+
+.call-to-action {
+    padding: 64px 48px;
+    background-color: #080F17;
+    color: #D6DDE6;
+    text-align: left;
+}
+
+.cta-text h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0;
+    font-weight: 500;
+}
+
+
+
+.contact-section {
+    position: relative;
+}
+
+.contact-image {
+    position: relative;
+    display: block;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.contact-overlay {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    background-color: rgba(8, 15, 23, 0); 
+    color: #D6DDE6; 
+    padding: 16px 24px; 
+    border-radius: 8px; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-overlay h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contact-overlay p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.828);
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #D6DDE6;
+    color: #080F17;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    background-color: #080F17;
+    color: #D6DDE6;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-right .follow-btn {
+    background-color: transparent;
+    border: 1px solid #D6DDE6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #D6DDE6;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+}
+
+.footer-right .follow-btn:hover {
+    background-color: #D6DDE6;
+    color: #080F17;
+}
