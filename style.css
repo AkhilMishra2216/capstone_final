@@ -15,21 +15,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Makes it responsive */
+    flex-wrap: wrap;
     height: auto;
     padding: 16px 0;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
 }
 
 #portfolio {
-    font-size: 2.5rem; /* Scales with viewport */
+    font-size: 2.5rem; 
     font-weight: 700;
 }
 
 #pagelink {
     display: flex;
-    flex-wrap: wrap; /* Adapts to smaller screens */
-    gap: 16px; /* Reduced for mobile screens */
+    flex-wrap: wrap; 
+    gap: 16px; 
 }
 
 .nav-item {
@@ -49,7 +49,7 @@ body {
 }
 
 #unrefined {
-    font-size: 7rem; /* Scales down on smaller screens */
+    font-size: 7rem; 
     font-weight: 700;
     letter-spacing: -0.02em;
 }
@@ -71,7 +71,7 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap; /* Wraps content on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-between;
     gap: 32px;
 }
@@ -173,10 +173,10 @@ body {
 
 .footer {
     display: flex;
-    flex-wrap: wrap; /* Makes footer elements stack */
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
-    padding: 16px 5%; /* Adjust for smaller screens */
+    padding: 16px 5%; 
     background-color: #080F17;
     color: #D6DDE6;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -204,7 +204,7 @@ body {
     color: #080F17;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .header {
         flex-direction: column;
